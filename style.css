@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Verdana';
+}
+
+body main header {
+    background: url("img/Header-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.Header-elements-background{
+    background-color: #52503B;
+    height: 70px;
+}
+
+.Header-elements {
+    background-color: #52503B;
+    margin: auto;
+    width: 83%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.Header-buttons a {
+    text-decoration: none;
+    color:white;
+}
+
+.Book-now a{
+    display: flex;
+    background-color: white;
+    width: 117px;
+    height: 42px;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #52503B;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-describe-background {
+    margin-top: 178px;
+    height: 552px;
+}
+
+.Header-describe div{
+    width: 256px;
+    height: 90px;
+    margin: auto;
+}
+
+.Header-describe div img{
+    width: 256px;
+    height: 90px;
+}
+
+.Header-describe h1 {
+    margin: auto;
+    width: 1174px;
+    height: 106px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+
+.Header-describe p {
+    width: 291px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #EEEEEE;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.Describe {
+    padding-top: 100px;
+    height: 310px;
+    background-color: #FAF8F0;
+}
+
+.Rectangle {
+    margin: auto;
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+}
+
+.Block {
+    display: flex;
+    justify-content: space-between;
+    width: 743px;
+    margin: auto;
+    margin-top: 33px;
+}
+
+.Block section {
+    width: 360px;
+    height: 180px;
+    margin-right: 40px;
+}
+
+.Block section p {
+    width: 360px;
+    height: 180px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.Block div {
+    width: 343px;
+}
+.Block div p {
+    width: 343px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.Block div a {
+    display: flex;
+    width: 107px;
+    height: 42px;
+    background-color: #52503B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    margin-top: 41px;
+    text-decoration: none;
+}
+.Demonstration {
+    background: url('img/Demonstration.png');
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+}
+
+.Demonstration-2 {
+    background: url('img/Demonstration-2.png');
+    background-size: cover;
+
+    height: 535px;
+}
+
+.Arrangements-div{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Arrangements-image {
+    width: 64px;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.Arrangements-div section h6 {
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #42403A;
+    width: 93px;
+    margin-bottom: 3px;
+}
+
+.Arrangements-div section p {
+    margin:auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #52503B;
+    width: 346px;
+}
+
+.Arrangements h1 {
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #42403A;
+    width: 395px; 
+    margin-top: 30px;
+}
+
+.Arrangements p {
+    margin: auto;
+    width: 554px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #52503B;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.Arrangements {
+    padding-top: 100px;
+    height: 390px;
+    background: #FAF8F0;
+}
+
+.Rectangle-2 {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+}
+.Escape {
+    height: 526px;
+}
+
+.Escape{
+    margin: auto;
+    padding-top: 100px;
+    width: 1100px;
+}
+
+.Escape div h1 {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+}
+
+.Escape div p {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+
+.Escape-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Escape-div div section div h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #22201A;
+    margin-left: 16px;
+}
+
+.Escape-div div section div p {
+    width: 403px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+    margin-left: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Escape-div div section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.Escape-div div section img{
+    width: 36px;
+    height: 36px;
+}
+
+.Demonstration-2 {
+    height: 535px;
+}
+.Demonstration-2 img {
+    width: 1349px;
+    height: 535px;
+}
+
+.Come-together {
+    margin: auto;
+    width: 1168px;
+    padding-top: 100px;
+    height: 236px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Come-together-dem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Come-together h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.Come-together p {
+    width: 552px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+
+.Come-together-dem section div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 240px;
+    color: #52503B;
+}
+
+.Come-together-dem section div img {
+    margin-right: 16px;
+}
+
+.Come-together-dem section div {
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+}
+
+body main footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52503B;
+    height: 248px;
+}
+
+body main footer div h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+body main footer div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+body main footer div div {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Come-together-back {
+    background-color: #FAF8F0;
+}
